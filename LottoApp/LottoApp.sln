@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LottoAppConsole", "LottoApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LottoClassLibrary", "..\LottoCoupon\LottoClassLibrary.csproj", "{9C8FA29D-BC73-4698-8908-35FCEFD45DBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LottoAppWPF", "..\LottoAppWPF\LottoAppWPF.csproj", "{1FD32A8A-A0C4-45A7-AF6D-6C6DC2B16907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LottoAppWPF", "..\LottoAppWPF\LottoAppWPF.csproj", "{1FD32A8A-A0C4-45A7-AF6D-6C6DC2B16907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LottoAppMVC", "..\LottoAppMVC\LottoAppMVC.csproj", "{C4866D0A-B9E9-4E85-8B7E-FF53C67487D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1FD32A8A-A0C4-45A7-AF6D-6C6DC2B16907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FD32A8A-A0C4-45A7-AF6D-6C6DC2B16907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FD32A8A-A0C4-45A7-AF6D-6C6DC2B16907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4866D0A-B9E9-4E85-8B7E-FF53C67487D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4866D0A-B9E9-4E85-8B7E-FF53C67487D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4866D0A-B9E9-4E85-8B7E-FF53C67487D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4866D0A-B9E9-4E85-8B7E-FF53C67487D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

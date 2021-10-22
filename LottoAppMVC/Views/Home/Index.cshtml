@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form action="/" method="post">
+    <label for="type">type of coupon</label><br />
+    <select name="type">
+        <option value="Lotto">Lotto</option>
+        <option value="Viking">Viking</option>
+    </select><br />
+    <label for="amount">Amount of coupons</label><br />
+    <input type="number" name="amount" value="" /><br />
+    <label for="rows">Amount of rows</label><br />
+    <input type="number" name="rows" value="" /><br />
+    <label for="joker">with jokers</label><br />
+    <input type="checkbox" name="joker" value="true" /><br />
+    <input type="submit" value="Submit" />
+
+    @using LottoClassLibrary.Coupons.Abstract;
+    @if(ViewBag.Coupons != null)
+    {
+        <div style="display:flex; flex-wrap:wrap;">
+            @foreach (Coupon item in ViewBag.Coupons)
+            {
+                <div style="border:2px solid black; margin:10px;padding:5px;">
+                    <pre>@item.ToString()</pre>
+                </div>
+            }
+        </div>
+    }
+</form>
